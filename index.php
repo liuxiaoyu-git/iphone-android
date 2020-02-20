@@ -1,10 +1,10 @@
 <?php 
 if (strpos(getallheaders()['User-Agent'],'iPhone')){ 
- echo '去iphone页面'; 
+  header( "Location: http://iphone.partner-demo.apps.cluster-beijing-4af7.beijing-4af7.example.opentlc.com/" );
 }
 else {
- echo '去Android页面'; 
+  header( "Location: http://android.partner-demo.apps.cluster-beijing-4af7.beijing-4af7.example.opentlc.com/" );
 }
-echo "---------------------------------------------";
-echo getallheaders()['User-Agent'];
+
+exit;
 ?> 
