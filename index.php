@@ -1,16 +1,10 @@
 <?php 
-foreach (getallheaders() as $name => $value) { 
-	echo "$name: $value <br>"; 
-} 
+if (strpos(getallheaders()['User-Agent'],'iPhone')){ 
+ echo '去iphone页面'; 
+}
+else {
+ echo '去Android页面'; 
+}
 echo "---------------------------------------------";
 echo getallheaders()['User-Agent'];
 ?> 
-
-<html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
- <?php echo '<p>Hello World</p>'; ?> 
- </body>
-</html>
