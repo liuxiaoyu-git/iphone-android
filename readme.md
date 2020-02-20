@@ -1,4 +1,4 @@
-环境：OCP 4.3+ServiceMesh+Knavive环境
+环境：OCP4.3+ServiceMesh+Knative环境
 
 部署运行说明：
 1：将android和iphone分支PHP应用按照Knative的方式部署
