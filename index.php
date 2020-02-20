@@ -1,35 +1,30 @@
 <html>
-	<body>
-	<style>
-			.tupian{ border:0px; width:200px; height:200px}
-		.tupian img{width:200px; height:200px} 
-	</style>
-	<div>
-		<table width=100% height=100%>
-			<tr><td colspan=3 align=center valign=center><font size=60>请为iPhone选择配件</font></td></tr>
-			<tr>
-				<td align=center>
-					<image src=https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWYK2?wid=445&hei=445&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1567304928359 />
-				</td>
+    <body>
+    <style>
+        .tupian{ border:0px; width:100%; height:1000px}
+        .tupian img{width:300px; height:300px} 
+    </style>
+    <div class=tupian>
+        <table width=60% height=80% align=center>
+            <tr><td colspan=3 align=center valign=center><font size=60><br/>请为Android手机选择配件<p/></font></td></tr>
+            <tr>
                 <td align=center>
-					<image src=https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HMQB2?wid=445&hei=445&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1550702201599 />
+                    <image src=https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1506393991.60537642.jpg /><br><font size=6>1.5米TypeC数据线</font>
                 </td>
                 <td align=center>
-					<image src=https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWVN2?wid=445&hei=445&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1572374637668 />
-				</td>
-			</tr>
-			<tr>
-				<td align=center>
-					<image src=https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWYA2?wid=445&hei=445&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1566853250388 />
+                    <image src=https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1517399998.788493.jpg /><br><font size=6>1.0米TypeC数据线</font>
                 </td>
-                <td align=center>
-					<image src=https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNUP2?wid=445&hei=445&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1579028210281 />
-				</td>
-                <td align=center>
-					<image src=https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNLG2?wid=445&hei=445&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1573860981495 />
-				</td>
             </tr>
-		</table>
-	</div>
-	</body>
+            <tr>
+                <td align=center>
+                    <image src=https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1496833357.9528722.jpg /><br><font size=6>Micro-USB数据线</font>
+                </td>
+                <td align=center>
+                    <image src=https://cdn.cnbj0.fds.api.mi-img.com/b2c-miapp-a1/287594eb-b765-8db1-3255-0a05c4c07440.jpg /><br><font size=6>二合一数据线</font>
+                </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </body>
 </html>
